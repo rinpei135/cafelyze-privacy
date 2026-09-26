@@ -25,7 +25,7 @@
 <!-- 日本語 -->
 <div id="ja" class="section active">
 <h1>プライバシーポリシー</h1>
-<p class="date">最終更新日: 2026年9月25日</p>
+<p class="date">最終更新日: 2026年9月26日</p>
 
 <h2>1. はじめに</h2>
 <p>Cafelyze（以下「本アプリ」）は、カフェの収支管理を支援するモバイルアプリケーションです。本プライバシーポリシーは、本アプリにおける情報の取り扱いについて説明します。</p>
@@ -33,12 +33,16 @@
 <h2>2. 収集する情報</h2>
 <p>本アプリは、ユーザーが入力した以下のデータをデバイス内にのみ保存します：</p>
 <ul>
-  <li>売上データ（日付、金額、客数、天気、メモ）</li>
-  <li>経費データ（日付、金額、カテゴリ、内容）</li>
-  <li>メニュー情報（名前、価格、カテゴリ）</li>
-  <li>原価計算の履歴</li>
+  <li>売上データ（日付、金額、客数、天気、メモ、営業タイプ・イベント名、メニュー別の販売数・販売時の価格・材料費）</li>
+  <li>経費データ（日付、金額、カテゴリ、費用区分、内容）</li>
+  <li>メニュー情報（名前、価格、カテゴリ、紐付けたレシピ）</li>
+  <li>原価計算の履歴（レシピ名、材料、作成数、原価、目標原価率、売価）</li>
+  <li>材料ライブラリ（材料名、購入価格、購入量、単位）</li>
+  <li>月額家賃、月別の売上目標</li>
+  <li>メニューのプリセット、メニューの表示設定</li>
   <li>アプリ設定（言語、通貨）</li>
 </ul>
+<p>データの読み込み（インポート）を行う際は、上書きされる前の売上・経費・メニューの控えを端末内に保存します。</p>
 <p>これらのデータは外部サーバーに送信されることはありません。すべてのデータはお使いのデバイスのローカルストレージに保存されます。</p>
 <p>ただし、端末の設定で Android のバックアップが有効になっている場合、本アプリのデータはお使いの Google アカウントのバックアップに含まれることがあります。これは機種変更や端末の故障の際にデータを復元するための Android 標準の機能で、有効・無効は端末の設定で変更できます。開発者がこのバックアップにアクセスすることはありません。</p>
 
@@ -74,7 +78,7 @@
 <!-- English -->
 <div id="en" class="section">
 <h1>Privacy Policy</h1>
-<p class="date">Last updated: September 25, 2026</p>
+<p class="date">Last updated: September 26, 2026</p>
 
 <h2>1. Introduction</h2>
 <p>Cafelyze ("the App") is a mobile application designed to help manage cafe finances. This Privacy Policy explains how information is handled within the App.</p>
@@ -82,12 +86,16 @@
 <h2>2. Information We Collect</h2>
 <p>The App stores the following user-entered data only on the device:</p>
 <ul>
-  <li>Sales data (date, amount, customer count, weather, notes)</li>
-  <li>Expense data (date, amount, category, description)</li>
-  <li>Menu information (name, price, category)</li>
-  <li>Cost calculation history</li>
+  <li>Sales data (date, amount, customer count, weather, notes, business type and event name, quantities sold per menu item with the price and ingredient cost at the time of sale)</li>
+  <li>Expense data (date, amount, category, cost type, description)</li>
+  <li>Menu information (name, price, category, linked recipe)</li>
+  <li>Cost calculation history (recipe name, ingredients, yield, costs, target cost ratio, price)</li>
+  <li>Material library (name, purchase price, purchase quantity, unit)</li>
+  <li>Monthly rent and monthly sales targets</li>
+  <li>Menu presets and menu display settings</li>
   <li>App settings (language, currency)</li>
 </ul>
+<p>When you import data, the App keeps a copy of the sales, expense and menu data being overwritten on your device.</p>
 <p>This data is never transmitted to external servers. All data is stored in your device's local storage.</p>
 <p>However, if Android backup is turned on in your device settings, the App's data may be included in your Google Account backup. This is a standard Android feature for restoring data when you change or lose your device, and you can turn it on or off in your device settings. The developer has no access to this backup.</p>
 
